@@ -1,0 +1,32 @@
+{
+  "archive": "UEA Multivariate Time Series Classification Archive",
+  "layout": "dataset/Multivariate_ts/<dataset>/<dataset>_{TRAIN,TEST}.ts",
+  "split_policy": "official TRAIN/TEST split; no resplitting",
+  "fixed_length_within_dataset": true,
+  "datasets": [
+    {"name": "ArticularyWordRecognition", "abbr": "AWR", "case": 1, "train": 275, "test": 300, "length": 144, "channels": 9, "classes": 25},
+    {"name": "BasicMotions", "abbr": "BM", "case": 1, "train": 40, "test": 40, "length": 100, "channels": 6, "classes": 4},
+    {"name": "Epilepsy", "abbr": "EP", "case": 1, "train": 137, "test": 138, "length": 206, "channels": 3, "classes": 4},
+    {"name": "ERing", "abbr": "ER", "case": 1, "train": 30, "test": 270, "length": 65, "channels": 4, "classes": 6},
+    {"name": "FaceDetection", "abbr": "FD", "case": 1, "train": 5890, "test": 3524, "length": 62, "channels": 144, "classes": 2},
+    {"name": "FingerMovements", "abbr": "FM", "case": 1, "train": 316, "test": 100, "length": 50, "channels": 28, "classes": 2},
+    {"name": "Handwriting", "abbr": "HW", "case": 1, "train": 150, "test": 850, "length": 152, "channels": 3, "classes": 26},
+    {"name": "Libras", "abbr": "LIB", "case": 1, "train": 180, "test": 180, "length": 45, "channels": 2, "classes": 15},
+    {"name": "LSST", "abbr": "LSST", "case": 1, "train": 2459, "test": 2466, "length": 36, "channels": 6, "classes": 14},
+    {"name": "NATOPS", "abbr": "NA", "case": 1, "train": 180, "test": 180, "length": 51, "channels": 24, "classes": 6},
+    {"name": "PEMS-SF", "abbr": "PEMS", "case": 1, "train": 267, "test": 173, "length": 144, "channels": 963, "classes": 7},
+    {"name": "PenDigits", "abbr": "PD", "case": 1, "train": 7494, "test": 3498, "length": 8, "channels": 2, "classes": 10},
+    {"name": "PhonemeSpectra", "abbr": "PM", "case": 1, "train": 3315, "test": 3353, "length": 217, "channels": 11, "classes": 39},
+    {"name": "RacketSports", "abbr": "RS", "case": 1, "train": 151, "test": 152, "length": 30, "channels": 6, "classes": 4},
+    {"name": "DuckDuckGeese", "abbr": "DDG", "case": 2, "train": 50, "test": 50, "length": 270, "channels": 1345, "classes": 5},
+    {"name": "UWaveGestureLibrary", "abbr": "UWG", "case": 2, "train": 120, "test": 320, "length": 315, "channels": 3, "classes": 8},
+    {"name": "AtrialFibrillation", "abbr": "AF", "case": 3, "train": 15, "test": 15, "length": 640, "channels": 2, "classes": 3},
+    {"name": "Cricket", "abbr": "CR", "case": 3, "train": 108, "test": 72, "length": 1197, "channels": 6, "classes": 12},
+    {"name": "EthanolConcentration", "abbr": "EC", "case": 3, "train": 261, "test": 263, "length": 1751, "channels": 3, "classes": 4},
+    {"name": "HandMovementDirection", "abbr": "HMD", "case": 3, "train": 160, "test": 74, "length": 400, "channels": 10, "classes": 4},
+    {"name": "Heartbeat", "abbr": "HB", "case": 3, "train": 204, "test": 205, "length": 405, "channels": 61, "classes": 2},
+    {"name": "SelfRegulationSCP1", "abbr": "SRS1", "case": 3, "train": 268, "test": 293, "length": 896, "channels": 6, "classes": 2},
+    {"name": "SelfRegulationSCP2", "abbr": "SRS2", "case": 3, "train": 200, "test": 180, "length": 1152, "channels": 7, "classes": 2},
+    {"name": "StandWalkJump", "abbr": "SWJ", "case": 3, "train": 12, "test": 15, "length": 2500, "channels": 4, "classes": 3}
+  ]
+}

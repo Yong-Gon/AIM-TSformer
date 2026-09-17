@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+dataset/
+baselines/outputs/
+results_baseline_images/
+results_mapping_ablation/
+results_scale_sampling/
+results_patch_ablation/
+results_tables_5_10/
+checkpoint_metrics/
+complexity_results/
+aimtsformer_results_github_public_final/
+results_prediction_metrics/
+/checkpoints/
+/evaluate_checkpoints.py
+/table13_aim_tsformer_cost.py
+/table14_runtime_breakdown.py
