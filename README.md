@@ -11,7 +11,7 @@ dataset/Multivariate_ts/<dataset>/<dataset>_TRAIN.ts
 dataset/Multivariate_ts/<dataset>/<dataset>_TEST.ts
 ```
 
-The source data are available from the [UEA Multivariate Time Series Classification Archive](https://doi.org/10.48550/arXiv.1811.00075) and are not distributed here.
+The source data are available from the [UEA Multivariate Time Series Classification Archive](https://doi.org/10.48550/arXiv.1811.00075).
 
 ## Main experiment
 
